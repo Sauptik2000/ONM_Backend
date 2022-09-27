@@ -1,0 +1,96 @@
+2022-09-20 11:00:47.132  INFO 15800 --- [restartedMain] com.onm.OnmApplication                   : Starting OnmApplication using Java 1.8.0_202 on LIN51013814 with PID 15800 (C:\My Projects\onm\target\classes started by SAUPGHOS in C:\My Projects\onm)
+2022-09-20 11:00:47.137  INFO 15800 --- [restartedMain] com.onm.OnmApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 11:00:47.206  INFO 15800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-20 11:00:47.207  INFO 15800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-20 11:00:48.268  INFO 15800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-20 11:00:48.339  INFO 15800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+2022-09-20 11:00:49.161  INFO 15800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-20 11:00:49.173  INFO 15800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 11:00:49.173  INFO 15800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-20 11:00:49.256  INFO 15800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 11:00:49.256  INFO 15800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2048 ms
+2022-09-20 11:00:49.506  INFO 15800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-20 11:00:49.663  INFO 15800 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-20 11:00:49.916  INFO 15800 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-20 11:00:50.081  INFO 15800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-20 11:00:51.676  INFO 15800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-20 11:00:51.717  INFO 15800 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-09-20 11:00:52.580  INFO 15800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-20 11:00:52.602  INFO 15800 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 11:00:53.287  WARN 15800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-20 11:00:53.644  INFO 15800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-20 11:00:53.687  INFO 15800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-20 11:00:53.698  INFO 15800 --- [restartedMain] com.onm.OnmApplication                   : Started OnmApplication in 6.941 seconds (JVM running for 7.725)
+2022-09-20 11:17:31.334  INFO 15800 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-20 11:17:31.335  INFO 15800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-20 11:17:31.338  INFO 15800 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-20 12:00:15.021  WARN 15800 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: User not found ]
+2022-09-20 12:00:21.204  WARN 15800 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceAlreadyExistException: User Aleady exist]
+2022-09-20 12:01:48.118  WARN 15800 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:08:19.425  WARN 15800 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:08:33.217  WARN 15800 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:10:51.990  WARN 15800 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: User not found ]
+2022-09-20 12:11:00.379  WARN 15800 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:12:21.918  WARN 15800 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:12:48.476  WARN 15800 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:14:07.692  WARN 15800 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:14:57.536  WARN 15800 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: Password missmatched ]
+2022-09-20 12:15:12.934  WARN 15800 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceNotFoundException: User not found ]
+2022-09-20 12:21:52.366  WARN 15800 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceAlreadyExistException: User Aleady exist]
+2022-09-20 12:32:49.305  WARN 15800 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceAlreadyExistException: User Aleady exist]
+2022-09-20 12:32:52.483  WARN 15800 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceAlreadyExistException: User Aleady exist]
+2022-09-20 12:34:43.563  WARN 15800 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onm.expections.ResourceAlreadyExistException: User Aleady exist]
+2022-09-20 14:37:52.334  INFO 15800 --- [RMI TCP Connection(226)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-20 14:37:52.479  INFO 15800 --- [RMI TCP Connection(226)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 14:37:52.484  INFO 15800 --- [RMI TCP Connection(226)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-20 14:37:52.505  INFO 15800 --- [RMI TCP Connection(226)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-20 14:54:34.486  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : Starting OnmApplication using Java 1.8.0_202 on LIN51013814 with PID 16248 (C:\My Projects\onm\target\classes started by SAUPGHOS in C:\My Projects\onm)
+2022-09-20 14:54:34.487  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 14:54:34.544  INFO 16248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-20 14:54:34.544  INFO 16248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-20 14:54:35.076  INFO 16248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-20 14:54:35.127  INFO 16248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2022-09-20 14:54:35.692  INFO 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-20 14:54:35.703  INFO 16248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 14:54:35.704  INFO 16248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-20 14:54:35.778  INFO 16248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 14:54:35.779  INFO 16248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
+2022-09-20 14:54:35.942  INFO 16248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-20 14:54:36.002  INFO 16248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-20 14:54:36.225  INFO 16248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-20 14:54:36.348  INFO 16248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-20 14:54:36.703  INFO 16248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-20 14:54:36.726  INFO 16248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-09-20 14:54:37.351  INFO 16248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-20 14:54:37.359  INFO 16248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 14:54:37.812  WARN 16248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-20 14:54:38.086  INFO 16248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-20 14:54:38.122  INFO 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-20 14:54:38.130  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : Started OnmApplication in 3.941 seconds (JVM running for 4.604)
+2022-09-20 15:14:39.901  INFO 16248 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 15:14:39.907  INFO 16248 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-20 15:14:39.915  INFO 16248 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-20 15:14:40.081  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : Starting OnmApplication using Java 1.8.0_202 on LIN51013814 with PID 16248 (C:\My Projects\onm\target\classes started by SAUPGHOS in C:\My Projects\onm)
+2022-09-20 15:14:40.081  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : No active profile set, falling back to 1 default profile: "default"
+2022-09-20 15:14:40.228  INFO 16248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-20 15:14:40.243  INFO 16248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2022-09-20 15:14:40.338  INFO 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-20 15:14:40.339  INFO 16248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-20 15:14:40.339  INFO 16248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-20 15:14:40.349  INFO 16248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-20 15:14:40.349  INFO 16248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 266 ms
+2022-09-20 15:14:40.374  INFO 16248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-20 15:14:40.377  INFO 16248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-09-20 15:14:40.440  INFO 16248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-09-20 15:14:40.440  INFO 16248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2022-09-20 15:14:40.491  INFO 16248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-20 15:14:40.491  INFO 16248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 15:14:40.606  WARN 16248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-20 15:14:40.713  INFO 16248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-20 15:14:40.724  INFO 16248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-20 15:14:40.731  INFO 16248 --- [restartedMain] com.onm.OnmApplication                   : Started OnmApplication in 0.681 seconds (JVM running for 1207.199)
+2022-09-20 15:14:40.735  INFO 16248 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-20 15:29:41.316  INFO 16248 --- [RMI TCP Connection(46)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-20 15:29:41.523  INFO 16248 --- [RMI TCP Connection(46)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-20 15:29:41.525  INFO 16248 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-09-20 15:29:41.534  INFO 16248 --- [RMI TCP Connection(46)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
